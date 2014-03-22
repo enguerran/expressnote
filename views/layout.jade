@@ -1,0 +1,20 @@
+doctype
+html
+  head
+    title #{title} - Express Note
+    link(rel='stylesheet', href='/assets/lib/bootstrap-theme.cosmo.min.css')
+    link(rel='stylesheet', href='/assets/app.css')
+    block head
+
+  body
+    header
+        block header
+
+    #wrap
+        .container
+          .main-content
+            block content
+
+    footer.bs-app-footer
+        .container
+            p Running on <a href="#">node</a> with <a href="#">Express</a>, <a href="#">Jade</a> and <a href="#">Bootstrap</a>.

@@ -1,0 +1,46 @@
+extend layout
+
+block head
+    script(src='/assets/jquery/jquery.min.js')
+    script(src='/assets/bootstrap/js/bootstrap.min.js')
+
+block header
+    nav(role="navigation").navbar.navbar-default
+        .navbar-header
+            button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a(href="/" ).navbar-brand Express Note
+        .collapse.navbar-collapse.navbar-ex1-collapse
+            ul.nav.navbar-nav
+                li.active: a(href="#") Link
+                li: a(href="#") Link
+            ul.nav.navbar-nav.navbar-right
+                li: a(href="#") Link
+                li.dropdown
+                    a(href="#", data-toggle="dropdown").dropdown-toggle Dropdown <b class="caret"></b>
+                    ul.dropdown-menu
+                        li: a(href="#") Action
+                        li: a(href="#") Another action
+                        li: a(href="#") Something else here
+                        li: a(href="#") Separated link
+
+block content
+    .row
+        .col-md-6
+            .panel.panel-default
+                .panel-heading
+                    h3.panel-title Write here
+                .panel-body
+                    textarea.textarea-transition.form-control(id = 'edit')
+        .col-md-6
+            .panel.panel-info
+                .panel-heading
+                    h3.panel-title Preview
+                .panel-body
+                    p#markedPreview
+
+    script(src='/assets/lib/jquery.autosize.min.js')
+    script(src='/assets/app.js')
