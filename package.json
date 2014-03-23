@@ -21,5 +21,13 @@
     "test": "mocha"
   },
   "author": "ticabri",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/enguerran/expressnote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enguerran/expressnote/issues"
+  },
+  "homepage": "https://github.com/enguerran/expressnote"
 }
