@@ -38,6 +38,7 @@ app.post('/notes', function(req, res) {
     res.send(req.body);
 });
 
-var server = app.listen('8080', function() {
+var port = Number(process.env.PORT || 5000);
+var server = app.listen(port, function() {
     console.log('expressnote is listening on port %d', server.address().port);
 });
