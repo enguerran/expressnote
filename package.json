@@ -12,5 +12,14 @@
     "mocha": "~1.17.1",
     "superagent": "~0.16.0",
     "chai": "~1.9.0"
-  }
+  },
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ticabri",
+  "license": "MIT"
 }
