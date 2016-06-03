@@ -1,7 +1,7 @@
 {
   "name": "expressnote",
   "version": "0.0.1",
-  "description": "You always need something to write on, expressnote aims to be that thing. A progressive webapp ready to use, even when your offline.",
+  "description": "You always need something to write on, expressnote aims to be that thing. A progressive webapp ready to use, even when you're offline.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
