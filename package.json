@@ -1,33 +1,22 @@
 {
   "name": "expressnote",
-  "description": "A note web app with express",
   "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "express": "3.x",
-    "marked": "~0.3.1",
-    "jade": "~1.3.0"
-  },
-  "devDependencies": {
-    "mocha": "~1.17.1",
-    "superagent": "~0.16.0",
-    "chai": "~1.9.0"
-  },
-  "main": "app.js",
-  "directories": {
-    "test": "tests"
-  },
+  "description": "You always need something to write on, expressnote aims to be that thing. A progressive webapp ready to use, even when your offline.",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ticabri",
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/enguerran/expressnote.git"
+    "url": "git+https://github.com/enguerran/expressnote.git"
   },
+  "keywords": [
+    "kinto"
+  ],
+  "author": "Enguerran <enguerran@ticabri.com>",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/enguerran/expressnote/issues"
   },
-  "homepage": "https://github.com/enguerran/expressnote"
+  "homepage": "https://github.com/enguerran/expressnote#readme"
 }

@@ -1,6 +1,8 @@
-expressnote
+ExpressNote
 ===========
 
-A note web app with express.
+Gonna do something like that with Kinto as the back-end.
 
-Visit the application running on [heroku](http://expressnote.herokuapp.com/).
+Feel free to add issues to fill the backlog.
+
+![A mockup](1-Main page.png)
