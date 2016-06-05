@@ -4,7 +4,8 @@
   "description": "You always need something to write on, expressnote aims to be that thing. A progressive webapp ready to use, even when you're offline.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ./test/.setup.js --compilers js:babel-core/register --recursive $(find test -name '*_test.js')",
+    "tdd": "npm run test -- -w"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,22 @@
   "bugs": {
     "url": "https://github.com/enguerran/expressnote/issues"
   },
-  "homepage": "https://github.com/enguerran/expressnote#readme"
+  "homepage": "https://github.com/enguerran/expressnote#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^6.0.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "eslint": "^2.11.1",
+    "eslint-plugin-react": "^5.1.1",
+    "jsdom": "^9.2.1",
+    "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.1.0"
+  }
 }
