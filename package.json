@@ -4,6 +4,7 @@
   "description": "You always need something to write on, expressnote aims to be that thing. A progressive webapp ready to use, even when you're offline.",
   "main": "index.js",
   "scripts": {
+    "eslint": "eslint src test",
     "test": "mocha --require ./test/.setup.js --compilers js:babel-core/register --recursive $(find test -name '*_test.js')",
     "tdd": "npm run test -- -w"
   },
