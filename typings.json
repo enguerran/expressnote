@@ -1,0 +1,7 @@
+{
+  "name": "expressnote",
+  "dependencies": {},
+  "globalDependencies": {
+    "webpack": "registry:dt/webpack#1.12.9+20160523035535"
+  }
+}
